@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/codewithkiran/static/css/main.7baa06b4.css",
+    "main.js": "/codewithkiran/static/js/main.19c61d1e.js",
+    "static/media/kiran.png": "/codewithkiran/static/media/kiran.a16bd865a680a7e00ce6.png",
+    "index.html": "/codewithkiran/index.html",
+    "main.7baa06b4.css.map": "/codewithkiran/static/css/main.7baa06b4.css.map",
+    "main.19c61d1e.js.map": "/codewithkiran/static/js/main.19c61d1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7baa06b4.css",
+    "static/js/main.19c61d1e.js"
+  ]
+}
