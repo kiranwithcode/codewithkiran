@@ -8,25 +8,51 @@ import {
   FaYoutube,
 } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/kiran.png';
+// import Logo from '../assets/kiran.png';
+import { Link } from 'react-scroll';
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-10 bg-[#0a192f] text-gray-300 ">
+    <div className=" w-full fixed h-[80px] flex justify-between items-center px-10 bg-[#0a192f] text-gray-300 ">
       <div className=" ">
-        <img src={Logo} alt="logo" style={{ width: '50px' }} />
+      <Link to='home' smooth={true} duration={500}>
+      {/* <img src={Logo} alt="logo" style={{ width: '50px' }} /> */}
+      <span className="text-4xl sm:text-5xl font-bold text-blue-600 "  >Kiran</span><span className="text-4xl sm:text-5xl font-bold text-[#fff]" >Kamble</span>
+      </Link>
+      
       </div>
 
       {/* menu */}
-      <ul className="hidden md:flex">
-        <li>Home</li>
-        <li>About</li>
-        <li>Skills</li>
-        <li>Works</li>
-        <li>Contact</li>
+      <ul className='hidden md:flex'>
+        <li>
+          <Link to='home' smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to='about' smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to='skills' smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link to='work' smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
+        <li>
+          <Link to='contact' smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* hamberger menu*/}
@@ -38,14 +64,34 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-20 left-0 w-full h-screen flex flex-col justify-center items-center hover:mt-[-5px] duration-500 bg-[#0a192f] text-gray-300 '
+            : 'absolute top-20 left-0 w-full h-screen flex flex-col  items-center hover:mt-[-5px] duration-500 bg-[#0a192f] text-gray-300 '
         }
       >
-        <li className="py-6 text-4xl">Home</li>
-        <li className="py-6 text-4xl">About</li>
-        <li className="py-6 text-4xl">Skills</li>
-        <li className="py-6 text-4xl">Works</li>
-        <li className="py-6 text-4xl">Contact</li>
+        <li className="py-6 text-4xl">
+        <Link onClick={handleClick} to='home' smooth={true} duration={500}>
+            Home
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+        <Link onClick={handleClick} to='about' smooth={true} duration={500}>
+            About
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+        <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
+            Skills
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+        <Link onClick={handleClick} to='work' smooth={true} duration={500}>
+            Work
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
+        <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
 
       {/* Social Icons */}
@@ -54,7 +100,7 @@ const Navbar = () => {
           <li className=" w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
-              href="https://kiranwithcode.github.io/codewithkiran/"
+              href="https://github.com/kiranwithcode"
               target="_blank"
               rel="noreferrer"
             >
@@ -65,7 +111,7 @@ const Navbar = () => {
           <li className=" w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-700 ">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
-              href="https://kiranwithcode.github.io/codewithkiran/"
+              href="https://github.com/kiranwithcode"
               rel="noreferrer"
             >
               Linkdin
@@ -75,7 +121,7 @@ const Navbar = () => {
           <li className=" w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-600 ">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
-              href="https://kiranwithcode.github.io/codewithkiran/"
+              href="https://github.com/kiranwithcode"
               rel="noreferrer"
             >
               YouTube
@@ -85,7 +131,7 @@ const Navbar = () => {
           <li className=" w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#e8495c] ">
             <a
               className="flex justify-between items-center w-full text-gray-300 "
-              href="https://kiranwithcode.github.io/codewithkiran/"
+              href="https://github.com/kiranwithcode"
               rel="noreferrer"
             >
               Instagram
