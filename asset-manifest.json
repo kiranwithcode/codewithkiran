@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/codewithkiran/static/css/main.9cac204c.css",
-    "main.js": "/codewithkiran/static/js/main.3df7f673.js",
+    "main.css": "/codewithkiran/static/css/main.f9918c40.css",
+    "main.js": "/codewithkiran/static/js/main.1b732abe.js",
     "static/media/hotel.png": "/codewithkiran/static/media/hotel.2f52cc862c6fb302d1b6.png",
     "static/media/netflix.png": "/codewithkiran/static/media/netflix.a35677c4177f08dfe8e2.png",
     "static/media/kimaya.png": "/codewithkiran/static/media/kimaya.ad4d54867f85fb9e2c60.png",
@@ -18,11 +18,11 @@
     "static/media/css.png": "/codewithkiran/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/codewithkiran/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/codewithkiran/index.html",
-    "main.9cac204c.css.map": "/codewithkiran/static/css/main.9cac204c.css.map",
-    "main.3df7f673.js.map": "/codewithkiran/static/js/main.3df7f673.js.map"
+    "main.f9918c40.css.map": "/codewithkiran/static/css/main.f9918c40.css.map",
+    "main.1b732abe.js.map": "/codewithkiran/static/js/main.1b732abe.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cac204c.css",
-    "static/js/main.3df7f673.js"
+    "static/css/main.f9918c40.css",
+    "static/js/main.1b732abe.js"
   ]
 }
