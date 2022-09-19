@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/codewithkiran/static/css/main.4bd0dddf.css",
-    "main.js": "/codewithkiran/static/js/main.c39ea1a2.js",
+    "main.css": "/codewithkiran/static/css/main.c13f0ba7.css",
+    "main.js": "/codewithkiran/static/js/main.65b96cff.js",
     "static/media/hotel.png": "/codewithkiran/static/media/hotel.2f52cc862c6fb302d1b6.png",
     "static/media/netflix.png": "/codewithkiran/static/media/netflix.a35677c4177f08dfe8e2.png",
+    "static/media/facerecognition.PNG": "/codewithkiran/static/media/facerecognition.946252e18da976f34079.PNG",
     "static/media/kimaya.png": "/codewithkiran/static/media/kimaya.ad4d54867f85fb9e2c60.png",
     "static/media/expedia.png": "/codewithkiran/static/media/expedia.20bdcc1e171826b2aca0.png",
     "static/media/coschedule.png": "/codewithkiran/static/media/coschedule.8a905d3779f77c4f372b.png",
-    "static/media/face.png": "/codewithkiran/static/media/face.fe17a16a30a77fc6040f.png",
     "static/media/bootstrap.png": "/codewithkiran/static/media/bootstrap.32c248432e2b86298964.png",
     "static/media/react.png": "/codewithkiran/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/static.png": "/codewithkiran/static/media/static.f0424c37e185b98b178c.png",
     "static/media/kkk.jpg": "/codewithkiran/static/media/kkk.63016d6eff3745018cf9.jpg",
     "static/media/node.png": "/codewithkiran/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/mongo.png": "/codewithkiran/static/media/mongo.2a1528ddc31d4ce8518d.png",
@@ -20,11 +21,11 @@
     "static/media/css.png": "/codewithkiran/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/codewithkiran/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/codewithkiran/index.html",
-    "main.4bd0dddf.css.map": "/codewithkiran/static/css/main.4bd0dddf.css.map",
-    "main.c39ea1a2.js.map": "/codewithkiran/static/js/main.c39ea1a2.js.map"
+    "main.c13f0ba7.css.map": "/codewithkiran/static/css/main.c13f0ba7.css.map",
+    "main.65b96cff.js.map": "/codewithkiran/static/js/main.65b96cff.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bd0dddf.css",
-    "static/js/main.c39ea1a2.js"
+    "static/css/main.c13f0ba7.css",
+    "static/js/main.65b96cff.js"
   ]
 }
