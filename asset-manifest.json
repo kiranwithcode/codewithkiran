@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/codewithkiran/static/css/main.c13f0ba7.css",
-    "main.js": "/codewithkiran/static/js/main.65b96cff.js",
+    "main.css": "/codewithkiran/static/css/main.078208ec.css",
+    "main.js": "/codewithkiran/static/js/main.a0513687.js",
     "static/media/hotel.png": "/codewithkiran/static/media/hotel.2f52cc862c6fb302d1b6.png",
     "static/media/netflix.png": "/codewithkiran/static/media/netflix.a35677c4177f08dfe8e2.png",
     "static/media/facerecognition.PNG": "/codewithkiran/static/media/facerecognition.946252e18da976f34079.PNG",
@@ -21,11 +21,11 @@
     "static/media/css.png": "/codewithkiran/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/codewithkiran/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/codewithkiran/index.html",
-    "main.c13f0ba7.css.map": "/codewithkiran/static/css/main.c13f0ba7.css.map",
-    "main.65b96cff.js.map": "/codewithkiran/static/js/main.65b96cff.js.map"
+    "main.078208ec.css.map": "/codewithkiran/static/css/main.078208ec.css.map",
+    "main.a0513687.js.map": "/codewithkiran/static/js/main.a0513687.js.map"
   },
   "entrypoints": [
-    "static/css/main.c13f0ba7.css",
-    "static/js/main.65b96cff.js"
+    "static/css/main.078208ec.css",
+    "static/js/main.a0513687.js"
   ]
 }
